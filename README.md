@@ -12,4 +12,4 @@ In the project directory, you can run:
 
 ### `yarn eject`
 
-[!ScreenShot(/screenshots/dashboard.png)]
+![ScreenShot](/screenshots/dashboard.png)
