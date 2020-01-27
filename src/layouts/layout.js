@@ -21,7 +21,8 @@ import ApexLinearChart from '../components/charts/apexchart'
 import ApexMixedChart from '../components/charts/apexmixedchart'
 import ApexRadarChart from '../components/charts/apexradarchart'
 import ApexRadialBar from '../components/charts/apexradialbar'
-import ApexBubbleChart from '../components/charts/apexbubblechart'
+// import ApexBubbleChart from '../components/charts/apexbubblechart'
+import ApexHeatMap from '../components/charts/apexheatmap'
 
 const drawerWidth = 240;
 
@@ -180,9 +181,9 @@ export default function Layout() {
                 <h1> RadialBar </h1>
                 <ApexRadialBar></ApexRadialBar>
             </div>
-            <div className="col-md-3">
-                <h1> BubbleChart </h1>
-                <ApexBubbleChart></ApexBubbleChart>
+            <div className="col-md-6">
+                <h1> Heat Map </h1>
+                <ApexHeatMap></ApexHeatMap>
             </div>
         </div>
       </main>
