@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## React Apex Charts, Material UI components
 
 ## Available Scripts
 
