@@ -121,7 +121,7 @@ export default function Layout() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap>
-            Mini variant drawer
+            React Material Dashboard
           </Typography>
         </Toolbar>
       </AppBar>
