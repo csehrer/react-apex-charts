@@ -21,6 +21,8 @@ import ApexLinearChart from '../components/charts/apexchart'
 import ApexMixedChart from '../components/charts/apexmixedchart'
 import ApexRadarChart from '../components/charts/apexradarchart'
 import ApexRadialBar from '../components/charts/apexradialbar'
+import ApexBubbleChart from '../components/charts/apexbubblechart'
+
 const drawerWidth = 240;
 
 const useStyles = makeStyles(theme => ({
@@ -177,6 +179,10 @@ export default function Layout() {
             <div className="col-md-3">
                 <h1> RadialBar </h1>
                 <ApexRadialBar></ApexRadialBar>
+            </div>
+            <div className="col-md-3">
+                <h1> BubbleChart </h1>
+                <ApexBubbleChart></ApexBubbleChart>
             </div>
         </div>
       </main>
